@@ -1,0 +1,110 @@
+﻿<?xml version="1.0"?>
+<LangData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MainDialog>
+    <Title>サンプルアプリケーション</Title>
+    <EnrollBtn>登録</EnrollBtn>
+    <VerifyBtn>照合</VerifyBtn>
+    <IdentifyBtn>識別</IdentifyBtn>
+    <CancelBtn>中断</CancelBtn>
+    <DeleteBtn>削除</DeleteBtn>
+    <ExitBtn>終了</ExitBtn>
+    <IdLbl>ID</IdLbl>
+    <IdListLbl>IDリスト</IdListLbl>
+    <IdNumLbl>ID数</IdNumLbl>
+    <SensorName0>未サポートセンサー種別(0)</SensorName0>
+    <SensorName1>PalmSecureセンサー</SensorName1>
+    <SensorName2>PalmSecureセンサー LT</SensorName2>
+    <SensorName3>PalmSecureセンサー SL</SensorName3>
+    <SensorName4>未サポートセンサー種別(4)</SensorName4>
+    <SensorName5>未サポートセンサー種別(5)</SensorName5>
+    <SensorName6>未サポートセンサー種別(6)</SensorName6>
+    <SensorName7>PalmSecureセンサー EL</SensorName7>
+    <SensorName1_Compati>PalmSecureセンサー</SensorName1_Compati>
+    <SensorName1_Extend>PalmSecureセンサー V2</SensorName1_Extend>
+    <GuideMode0>ガイドレスモード</GuideMode0>
+    <GuideMode1>ガイド有モード</GuideMode1>
+  </MainDialog>
+  <Guidance>
+    <NOTIFY_CAP_GUID_BADIMAGE>いったん手を離してください。</NOTIFY_CAP_GUID_BADIMAGE>
+    <NOTIFY_CAP_GUID_MOVING>手を止めてください。</NOTIFY_CAP_GUID_MOVING>
+    <NOTIFY_CAP_GUID_LESSINFO>指を開いて、正しい位置にかざし直してください。</NOTIFY_CAP_GUID_LESSINFO>
+    <NOTIFY_CAP_GUID_RIGHT>手を少し左にずらしてください。</NOTIFY_CAP_GUID_RIGHT>
+    <NOTIFY_CAP_GUID_LEFT>手を少し右にずらしてください。</NOTIFY_CAP_GUID_LEFT>
+    <NOTIFY_CAP_GUID_DOWN>手を少し奥にずらしてください。</NOTIFY_CAP_GUID_DOWN>
+    <NOTIFY_CAP_GUID_UP>手を少し手前にずらしてください。</NOTIFY_CAP_GUID_UP>
+    <NOTIFY_CAP_GUID_FAR>手を近づけてください。</NOTIFY_CAP_GUID_FAR>
+    <NOTIFY_CAP_GUID_NEAR>手を少し遠ざけてください。</NOTIFY_CAP_GUID_NEAR>
+    <NOTIFY_CAP_GUID_CAPTURING>撮影中です。</NOTIFY_CAP_GUID_CAPTURING>
+    <NOTIFY_CAP_GUID_PITCH_DOWN>手を水平にしてください。</NOTIFY_CAP_GUID_PITCH_DOWN>
+    <NOTIFY_CAP_GUID_PITCH_UP>手を水平にしてください。</NOTIFY_CAP_GUID_PITCH_UP>
+    <NOTIFY_CAP_GUID_ROLL_RIGHT>手を水平にしてください。</NOTIFY_CAP_GUID_ROLL_RIGHT>
+    <NOTIFY_CAP_GUID_ROLL_LEFT>手を水平にしてください。</NOTIFY_CAP_GUID_ROLL_LEFT>
+    <NOTIFY_CAP_GUID_YAW_RIGHT>手をセンサーの向きにあわせてください。</NOTIFY_CAP_GUID_YAW_RIGHT>
+    <NOTIFY_CAP_GUID_YAW_LEFT>手をセンサーの向きにあわせてください。</NOTIFY_CAP_GUID_YAW_LEFT>
+    <NOTIFY_CAP_GUID_ADJUST_LIGHT>再撮影します。手を止めてください。</NOTIFY_CAP_GUID_ADJUST_LIGHT>
+    <NOTIFY_CAP_GUID_ADJUST_NG>再撮影します。手を止めてください。</NOTIFY_CAP_GUID_ADJUST_NG>
+    <NOTIFY_CAP_GUID_PHASE_END>認証処理中です。</NOTIFY_CAP_GUID_PHASE_END>
+    <NOTIFY_CAP_GUID_NO_HANDS>手をかざしてください。</NOTIFY_CAP_GUID_NO_HANDS>
+    <NOTIFY_CAP_GUID_ROUND>手を平にして、少し近づけてください</NOTIFY_CAP_GUID_ROUND>
+    <NOTIFY_CAP_GUID_START>撮影誘導を開始します。</NOTIFY_CAP_GUID_START>
+
+    <IllegalId>IDを正しく入力してください。</IllegalId>
+    <RegistId>入力されたIDは登録済みです。</RegistId>
+    <MaxOver>登録件数が上限に達しています。\r\n削除実行後、再度登録し直してください。</MaxOver>
+    <AdminMaxOver>管理者は既に登録済みです。\r\n削除実行後、再度登録し直してください。</AdminMaxOver>
+    <SelectId>IDを選択してください。</SelectId>
+    <Unregist>１件も登録されていません。</Unregist>
+    <UnregistId>入力されたIDは登録されていません。</UnregistId>
+    <RetryTransaction>再度処理を行います。手をかざし直してください。</RetryTransaction>
+    <EnrollmentTest>確認認証のため、手をかざし直してください。</EnrollmentTest>
+
+    <WorkEnrollStart>登録</WorkEnrollStart>
+    <WorkEnroll>登録 ( {0} / 2 )</WorkEnroll>
+    <WorkEnroll3>登録 ( {0} / 3 )</WorkEnroll3>
+    <WorkEnrollTest>確認認証 ( {0} / 2 )</WorkEnrollTest>
+    <WorkIdentifyStart>識別</WorkIdentifyStart>
+    <WorkIdentify>識別</WorkIdentify>
+    <WorkVerifyStart>照合</WorkVerifyStart>
+    <WorkVerify>照合</WorkVerify>
+    <WorkDelete>削除</WorkDelete>
+  </Guidance>
+  <CompleteMessage>
+    <EnrollOk>登録が完了しました。</EnrollOk>
+    <EnrollNg>登録されませんでした。</EnrollNg>
+    <EnrollRetry>登録が完了しました。\r\n登録状態があまりよくありません。削除後、再登録をお勧めします。</EnrollRetry>
+    <Delete>削除が完了しました。</Delete>
+    <VerifyOk>あなたは{0}です。</VerifyOk>
+    <VerifyNg>あなたは{0}ではありません。</VerifyNg>
+    <IdentifyOk>あなたは{0}です。</IdentifyOk>
+    <IdentifyNg>一致する登録データがありませんでした。</IdentifyNg>
+    <EnrollCancel>処理を中断しました。</EnrollCancel>
+    <VerifyCancel>処理を中断しました。</VerifyCancel>
+    <IdentifyCancel>処理を中断しました。</IdentifyCancel>
+  </CompleteMessage>
+  <ConfirmMessage>
+    <Delete>選択したIDを削除しますか？</Delete>
+  </ConfirmMessage>
+  <ErrorMessage>
+    <LibErrorTitle>認証ライブラリエラー</LibErrorTitle>
+    <LibErrorLevel>エラーレベル</LibErrorLevel>
+    <LibErrorCode>エラー分類　</LibErrorCode>
+    <LibErrorDetail>エラー詳細　</LibErrorDetail>
+    <AplErrorTitle>サンプルアプリケーションエラー</AplErrorTitle>
+    <AplErrorBmpSave>シルエットログの保存に失敗しました。</AplErrorBmpSave>
+    <AplErrorBmpDirOpen>シルエットログ格納ディレクトリのアクセスに失敗しました。</AplErrorBmpDirOpen>
+    <AplErrorLogDirOpen>ログディレクトリのアクセスに失敗しました。</AplErrorLogDirOpen>
+    <AplErrorLogFileOpen>ログファイルのオープンに失敗しました。</AplErrorLogFileOpen>
+    <AplErrorLogFileWrite>ログファイルの書き込みに失敗しました。</AplErrorLogFileWrite>
+    <AplErrorFileDirOpen>認証ファイル格納ディレクトリのアクセスに失敗しました。</AplErrorFileDirOpen>
+    <AplErrorFileOpen>認証ファイルのオープンに失敗しました。</AplErrorFileOpen>
+    <AplErrorFileWrite>認証ファイルの書き込みに失敗しました。</AplErrorFileWrite>
+    <AplErrorFileDelete>認証ファイルの削除に失敗しました。</AplErrorFileDelete>
+    <AplErrorDataFileNotFound>認証ファイルが見つかりませんでした。</AplErrorDataFileNotFound>
+    <AplErrorNoData>認証ファイルが見つかりませんでした。</AplErrorNoData>
+    <AplErrorGuideBmpLoad>ガイダンスBMPの読み込みに失敗しました。</AplErrorGuideBmpLoad>
+    <AplErrorsilhouetteLoad>シルエットイメージの表示に失敗しました。</AplErrorsilhouetteLoad>
+    <AplErrorSensorNothing>センサの接続に失敗しました。 </AplErrorSensorNothing>    
+    <AplErrorSystemError>内部エラーが発生しました。\r\nアプリケーションを終了します。</AplErrorSystemError>
+  </ErrorMessage>
+
+</LangData>
